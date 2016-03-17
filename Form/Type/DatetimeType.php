@@ -166,4 +166,9 @@ class DatetimeType extends AbstractType
     {
         return 'collot_datetime';
     }
+
+    public function getName()
+    {
+        return 'collot_datetime';
+    }
 }
